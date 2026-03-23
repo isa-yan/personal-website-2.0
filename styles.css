@@ -1,0 +1,122 @@
+#home{
+    color:red;
+}
+
+#abt{
+    color:blue;
+}
+
+#projects{
+    color:green;
+}
+
+body{
+    margin:0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 255, 0);
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.full{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
+}
+
+.circle{
+    position:absolute;
+    border-width:10px;
+    border-color:rgb(0, 110, 0);
+    border-radius:50%;
+    border-style:solid;
+    width:400px;
+    height:400px;
+    padding:5%;
+    animation:circlish 3s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes circlish{
+    0%{width:400px;height:400px}
+    50%{width:450px;height:450px}
+    100%{width:400px;height:400px}
+}
+
+
+.main{
+    animation:intro 2s steps(15),blink 0.5s step-end infinite alternate;
+    border-right:3px solid;
+    overflow:hidden;
+    width:19ch;
+    white-space:nowrap;
+    font-size:32px;
+    z-index:1000;
+}
+
+@keyframes intro{
+   from{width:0}
+}
+
+@keyframes blink{
+    50%{border-color:transparent;}
+
+}
+
+/************************ABOUT ME FUCKASSSSSSSS EHE************************/
+body{
+    background-color:black;
+}
+
+h1{
+    text-align:center;
+    font-size:64px;
+    margin-bottom:1%;
+}
+
+.bigbox{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-content:space-evenly;
+}
+
+.moi{
+    margin-top:3%;
+    border-style:solid;
+    padding:1%;
+}
+
+.fav-act{
+    margin-top:3%;
+    border-style:solid;
+    padding:1%;
+}
+
+.lang{
+    margin-top:3%;
+    border-style:solid;
+    padding:1%;
+}
+
+.fav-artist{
+    margin-top:3%;
+    border-style:solid;
+    padding:1%;
+}
+
+.wanna{
+    text-align:center;
+    margin-top:1%;
+    color:aqua;
+    text-decoration: none;
+}
+
+.wanna:hover{
+    color:aquamarine;
+}
