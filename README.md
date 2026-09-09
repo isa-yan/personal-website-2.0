@@ -5,3 +5,6 @@ made with html, css, js, and my tears :D
 
 the hardest part was probably just deciding the aesthetic since i remade this a shitton of times cuz i didn't know what i wanted it to look like
 v1 was just a circle but then i changed it to terminal colors cuz you just can't go wrong with a good ol' terminal
+
+
+demo: https://isa-yan.github.io/personal-website-2.0/
